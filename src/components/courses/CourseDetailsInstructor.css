@@ -1,0 +1,189 @@
+/* src/components/courses/CourseDetailsInstructor.css */
+
+.course-details-instructor {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .instructor-main-video-container {
+    flex: 3; /* Main video section takes more space */
+    margin-right: 20px;
+  }
+  
+  .instructor-sidebar {
+    flex: 1; /* Sidebar takes less space */
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .instructor-course-title {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .instructor-video-container {
+    margin-bottom: 20px;
+  }
+  
+  .instructor-course-video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .instructor-course-description {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .instructor-course-info {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #444;
+  }
+  
+  .instructor-lessons-list {
+    margin: 20px 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .instructor-lesson-item {
+    margin: 10px 0;
+  }
+  
+  .instructor-lesson-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .instructor-lesson-link:hover {
+    text-decoration: underline;
+  }
+  
+  .instructor-additional-videos {
+    margin-top: 20px;
+  }
+  
+  .instructor-additional-video-item {
+    margin: 10px 0;
+  }
+  
+  .instructor-additional-video-link {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .instructor-additional-video-link:hover {
+    text-decoration: underline;
+  }
+  
+  .instructor-error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+  }
+
+/* Button styles */
+.edit-course-button,
+.delete-course-button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.edit-course-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.edit-course-button:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+.delete-course-button {
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-left: 10px; /* Add some space between buttons */
+}
+
+.delete-course-button:hover {
+  background-color: #e53935; /* Darker red */
+}
+
+/* Form container styles */
+.edit-course-form {
+  max-width: 600px; /* Limit the width of the form */
+  margin: 20px auto; /* Center the form */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9; /* Light background for the form */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Input styles */
+.edit-course-form input,
+.edit-course-form textarea {
+  width: 100%; /* Full width */
+  padding: 10px;
+  margin: 10px 0; /* Space between inputs */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Label styles */
+.edit-course-form label {
+  font-weight: bold;
+  margin-bottom: 5px; /* Space between label and input */
+  display: block; /* Make labels block elements */
+}
+
+/* Button styles */
+.edit-course-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-course-button:hover {
+  background-color: #45a049; /* Darker green */
+}
+
+/* Button styles */
+.add-video-button {
+  background-color: #007bff; /* Blue */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px; /* Add some space above the button */
+}
+
+.add-video-button:hover {
+  background-color: #0056b3; /* Darker blue */
+}
